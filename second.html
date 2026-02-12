@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Leveling | Sung Jin-Woo Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="background-effect"></div>
+    <div class="grid-overlay"></div>
+
+    <header>
+        <nav>
+            <div class="logo">Solo Leveling</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="second.html">second Page</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-label">E-Rank Hunter</div>
+                <h1>Kaalu Mhatre</h1>
+                <p class="hero-subtitle">
+                    From the Strongest hunter to the Shadow Monarch. 
+                    Dont Witness the journey of a Kaalu who defies nothing and conquers nothing.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#skills" class="btn btn-primary">View Abilities</a>
+                    <a href="#gallery" class="btn btn-secondary">Explore Gallery</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="character-frame">
+                    <div class="level-badge">LVL 100</div>
+                    <div class="character-placeholder">
+                        <div class="character-icon"><img src="images/black.webp" style="margin-top: 10%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section" id="stats">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-icon">💪</div>
+                <div class="stat-value">350</div>
+                <div class="stat-label">Strength</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⚡</div>
+                <div class="stat-value">280</div>
+                <div class="stat-label">Agility</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🛡️</div>
+                <div class="stat-value">195</div>
+                <div class="stat-label">Vitality</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🔮</div>
+                <div class="stat-value">420</div>
+                <div class="stat-label">Mana</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <div class="section-header">
+            <h2 class="section-title">Battle Chronicles</h2>
+            <p class="section-subtitle">Moments from legendary dungeon raids</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <div class="gallery-placeholder"><img src="images/black-spiderman.jpg" width="100%" height="100%"></div>
+                <div class="gallery-overlay">
+                    <div class="gallery-title">Double Dungeon</div>
+                    <p class="gallery-description">Where it all began - the System awakens</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder"><img src="images/spiderman.jpg" width="100%" height="100%"></div>
+                <div class="gallery-overlay">
+                    <div class="gallery-title">Shadow Army</div>
+                    <p class="gallery-description">Legion of darkness under my command</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder"><img src="images/Symbiote-suit.avif" width="100%" height="100%"></div>
+                <div class="gallery-overlay">
+                    <div class="gallery-title">Monarch Battle</div>
+                    <p class="gallery-description">The final confrontation with destiny</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link">📱</a>
+                <a href="#" class="social-link">🌐</a>
+                <a href="#" class="social-link">✉️</a>
+                <a href="#" class="social-link">🎮</a>
+            </div>
+            <p class="footer-text">
+                © 2024 Solo Leveling Portfolio. Only I Level Up.
+            </p>
+        </div>
+    </footer>
+    <script src="logic.js"></script>
+</body>
+</html>
